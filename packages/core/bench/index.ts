@@ -3,7 +3,7 @@ import { Suite } from "benchmark"
 import * as wave from "waveguide/lib/wave"
 
 import * as T from "../build/Effect"
-import { pipe } from "../build/Pipe"
+import { pipe } from "../build/Function"
 
 export const fibPromise = async (n: bigint): Promise<bigint> => {
   if (n < BigInt(2)) {
